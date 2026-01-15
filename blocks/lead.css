@@ -44,3 +44,39 @@
   background-position: center;
   filter: grayscale(100%);
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    font-size: 75px;
+  }
+
+  .lead__subtitle {
+    margin: 25px 0 0;
+  }
+
+  .lead__image-container {
+    margin: 30px 0 0;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .lead {
+    margin-top: 50px;
+  }
+
+  .lead__title {
+    font-size: 40px;
+    line-height: 1.1;
+    max-width: 288px;
+  }
+
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 16px 0 0;
+  }
+
+  .lead__image-container {
+    margin: 40px 0 0;
+  }
+}
