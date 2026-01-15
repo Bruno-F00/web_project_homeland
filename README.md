@@ -23,4 +23,4 @@ Landing page responsiva para uma galeria de arte virtual. O foco principal é a 
 
 ## Link do Projeto
 
-[Ver no GitHub Pages](#)
+[Ver no GitHub Pages](https://bruno-f00.github.io/web_project_homeland/)
