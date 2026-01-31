@@ -26,12 +26,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .photo-grid__list-item {
-    padding-bottom: 75%; /* 264 ÷ 352 = 0.75 */
-  }
   .photo-grid {
     margin: 64px auto 0;
     padding: 0 24px;
+  }
+
+  .photo-grid__list-item {
+    padding-bottom: 75%; /* 264 ÷ 352 = 0.75 */
   }
 }
 

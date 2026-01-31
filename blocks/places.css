@@ -123,6 +123,10 @@
     padding: 0 24px;
   }
 
+  .places__list {
+    gap: 72px 0;
+  }
+
   .place {
     grid-template-columns: minmax(320px, 340px) 1fr;
     grid-template-rows: auto minmax(320px, 340px) auto;
@@ -135,10 +139,6 @@
 
   .place__description {
     font-size: 16px;
-  }
-
-  .places__list {
-    gap: 72px 0;
   }
 }
 
@@ -158,14 +158,15 @@
       "button";
     column-gap: 30px;
   }
+
+  .place__title {
+    font-size: 32px;
+  }
+
   .place__image-container {
     margin: 0 -16px;
     width: calc(100% + 32px);
     justify-self: center;
-  }
-
-  .place__title {
-    font-size: 32px;
   }
 
   .place__button {
